@@ -23,8 +23,8 @@ class DevelopmentConfig(Config):
     MAIL_DEBUG = True
     MAIL_USERNAME = '2350622075@qq.com'
     # 下面这个是授权码, 不是邮箱的密码！！！！
-    MAIL_PASSWORD = 'mwfmzppzxtwlebfc'
-    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8".format('root', 'wsl', "127.0.0.1", "3306",
+    MAIL_PASSWORD = '授权码'
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8".format('root', '密码', "127.0.0.1", "3306",
                                                                                    "flask_dog")
     SQLALCHEMY_TRACK_MODIFICATIONS = False
 
